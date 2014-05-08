@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+init(){
+  local repo=$1
+  local name=`basename $repo`
+
+  # git@xxxxx.com:xxx/node-foo.git -> node-foo
+  name=${name%%.*}
+  # -> foo
+  name=${name/node-/}
+
+  echo "name: $name"
+
+  # abc-d -> abc_d
+  var_name=${name//-/_}
+
+  echo "copy template to ./$name"
+  cp -r /Users/Kael/Codes/Node/_Template ./"$name"
+  cd "$name"
+
+  echo "rename"
+  mv test/{{name}}.js test/"$name".js
+  sed -i.bak s/{{name}}/"$name"/g Makefile
+  sed -i.bak s/{{name}}/"$name"/g package.json
+  sed -i.bak s/{{name}}/"$name"/g README.md
+  sed -i.bak s/{{name}}/"$var_name"/g "test/$name.js"
+
+  rm Makefile.bak
+  rm package.json.bak
+  rm README.md.bak
+  rm "test/$name.js.bak"
+
+  git init
+  git remote add origin "$repo"
+  git add -A
+  git commit -a -m 'first commit'
+  git push origin master
+}

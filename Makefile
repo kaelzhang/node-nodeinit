@@ -1,8 +1,9 @@
-REPORTER = spec
+PREFIX ?= /usr/local
 
-test:
-		@./node_modules/.bin/mocha \
-			--reporter $(REPORTER) \
-			./test/nodeinit.js
+install: bin/nodeinit
+	cp $< $(PREFIX)/$<
 
-.PHONY: test
+uninstall:
+	rm -f $(PREFIX)/bin/nodeinit
+
+.PHONY: install uninstall

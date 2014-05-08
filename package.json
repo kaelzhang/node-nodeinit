@@ -1,14 +1,14 @@
 {
   "name": "nodeinit",
   "version": "0.1.0",
-  "description": "nodeinit",
-  "main": "index.js",
+  "description": "Creates a most frequent scaffold of your node.js project for the first commit.",
+  "bin": "./bin/nodeinit",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kaelzhang/node-nodeinit.git"
+    "url": "git@github.com:kaelzhang/nodeinit.git"
   },
   "keywords": [
     "nodeinit"
@@ -19,10 +19,6 @@
   "author": "kael",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaelzhang/node-nodeinit/issues"
-  },
-  "devDependencies": {
-    "mocha": "~1.13.0",
-    "chai": "~1.8.0"
+    "url": "https://github.com/kaelzhang/nodeinit/issues"
   }
 }

@@ -1,1 +1,19 @@
-# nodeinit [![NPM version](https://badge.fury.io/js/nodeinit.png)](http://badge.fury.io/js/nodeinit) [![Build Status](https://travis-ci.org/kaelzhang/node-nodeinit.png?branch=master)](https://travis-ci.org/kaelzhang/node-nodeinit) [![Dependency Status](https://gemnasium.com/kaelzhang/node-nodeinit.png)](https://gemnasium.com/kaelzhang/node-nodeinit)
+# nodeinit
+
+Creates a most frequent scaffold of your node.js project for the first commit.
+
+```bash
+nodeinit https://github.com/kaelzhang/nodeinit.git
+```
+
+## Installation
+
+```bash
+$ npm install -g nodeinit
+```
+
+or
+
+```bash
+# make install
+```
