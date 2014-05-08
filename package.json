@@ -1,0 +1,28 @@
+{
+  "name": "nodeinit",
+  "version": "0.1.0",
+  "description": "nodeinit",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kaelzhang/node-nodeinit.git"
+  },
+  "keywords": [
+    "nodeinit"
+  ],
+  "engines": { 
+    "node": ">=0.8.0"
+  },
+  "author": "kael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-nodeinit/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "chai": "~1.8.0"
+  }
+}
