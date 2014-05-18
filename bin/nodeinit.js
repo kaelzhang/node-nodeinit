@@ -61,7 +61,7 @@ var data = {
   js_name: js_name,
   user: parsed.user,
   email: email,
-  npm_user: config.npm_user || parsed.user
+  npm_user: config.npm_user || argv.npm_user || parsed.user
 };
 
 var cwd = argv.cwd || process.cwd();
