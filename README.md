@@ -2,8 +2,14 @@
 
 Creates a most frequent scaffold of your node.js project for the first commit.
 
+## Why ?
+
+I was awefully insane about creating new node.js projects, creating new github repo, cloning, `npm init`, .gitignore, travis-ci config, `git init` ............
+
+We might as well: 
+
 ```bash
-nodeinit https://github.com/kaelzhang/nodeinit.git
+nodeinit https://github.com/kaelzhang/nodeinit.git # and done!
 ```
 
 ## Installation
@@ -12,8 +18,14 @@ nodeinit https://github.com/kaelzhang/nodeinit.git
 $ npm install -g nodeinit
 ```
 
-or
+## Usage
 
 ```bash
-# make install
+$ nodeinit <repo> [--email <email>] [--npm_user <npm-user>]
 ```
+
+`nodeinit` can not analysis your email and npm user name from the repo, so you must pass them to `nodeinit` for the first time you run the command.
+
+After this, the configuration will be saved into `~/.nodeinit`.
+
+Also, you could edit the file as you wish.
