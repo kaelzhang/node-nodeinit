@@ -28,8 +28,18 @@ function log (message) {
 }
 
 
+var Usage = [
+  'Usage: nodeinit <git-clone-url> [options]',
+  'options:',
+  '  --email <email>',
+  '  --npm_user <npm-user>',
+  '  --user <user>'
+
+].join('\n');
+
+
 if (!repo) {
-  fail('Usage: nodeinit <git-clone-url>');
+  fail(Usage);
 }
 
 var parsed = gu(repo);
@@ -48,7 +58,11 @@ var config = config_exists
 var email = argv.email || config.email;
 
 if (!email) {
-  fail('email is not configured, use --email or saved it in ~/.nodeinit');
+  fail(
+    'email is not configured, `--email` option should be specified:\n' +
+    '\n' +
+    '   nodeinit ' + repo + ' --email <email>'
+  );
 }
 
 if (!config.email && argv.email) {
@@ -59,9 +73,9 @@ var data = {
   basename: basename,
   name: name,
   js_name: js_name,
-  user: parsed.user,
+  user: argv.user || config.user || parsed.user,
   email: email,
-  npm_user: config.npm_user || argv.npm_user || parsed.user
+  npm_user: argv.npm_user || config.npm_user || parsed.user
 };
 
 var cwd = argv.cwd || process.cwd();

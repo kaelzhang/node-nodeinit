@@ -29,3 +29,17 @@ $ nodeinit <repo> [--email <email>] [--npm_user <npm-user>]
 After this, the configuration will be saved into `~/.nodeinit`.
 
 Also, you could edit the file as you wish.
+
+### ~/.nodeinit
+
+Usually, you can config your `~/.nodeinit` file like this:
+
+```ini
+email = i@kael.me
+
+; will be saved as `package.author` in package.json
+npm_user = kael
+
+; if not specified, nodeinit will parse the user name from the clone URL.
+user = kael
+```
