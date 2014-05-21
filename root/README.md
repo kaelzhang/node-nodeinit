@@ -2,7 +2,7 @@
 
 <!-- description -->
 
-## Installation
+## Install
 
 ```bash
 $ npm install {{= name}} --save
