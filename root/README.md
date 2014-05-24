@@ -14,7 +14,6 @@ $ npm install {{= name}} --save
 var {{= js_name}} = require('{{= name }}');
 ```
 
-## Licence
+## License
 
 MIT
-<!-- do not want to make nodeinit to complicated, you can edit this whenever you want. -->
