@@ -75,7 +75,8 @@ var data = {
   js_name: js_name,
   user: argv.user || config.user || parsed.user,
   email: email,
-  npm_user: argv.npm_user || config.npm_user || parsed.user
+  npm_user: argv.npm_user || config.npm_user || parsed.user,
+  ignore_file: '.gitignore'
 };
 
 var cwd = argv.cwd || process.cwd();
