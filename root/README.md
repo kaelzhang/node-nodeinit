@@ -1,4 +1,9 @@
-# {{= name }} [![NPM version](https://badge.fury.io/js/{{= name }}.svg)](http://badge.fury.io/js/{{= name }}) [![Build Status](https://travis-ci.org/{{= user }}/{{= basename }}.svg?branch=master)](https://travis-ci.org/{{= user }}/{{= basename }}) [![Dependency Status](https://gemnasium.com/{{= user }}/{{= basename }}.svg)](https://gemnasium.com/{{= user }}/{{= basename }})
+[![NPM version](https://badge.fury.io/js/{{= name }}.svg)](http://badge.fury.io/js/{{= name }})
+[![npm module downloads per month](http://img.shields.io/npm/dm/{{= name }}.svg)](https://www.npmjs.org/package/{{= name }})
+[![Build Status](https://travis-ci.org/{{= user }}/{{= basename }}.svg?branch=master)](https://travis-ci.org/{{= user }}/{{= basename }})
+[![Dependency Status](https://gemnasium.com/{{= user }}/{{= basename }}.svg)](https://gemnasium.com/{{= user }}/{{= basename }})
+
+# {{= name }}
 
 <!-- description -->
 
