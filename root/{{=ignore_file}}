@@ -42,4 +42,5 @@ jscoverage_lib/
 temp/
 tmp/
 
-
+# codecov.io
+coverage/
