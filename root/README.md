@@ -1,7 +1,13 @@
-[![NPM version](https://badge.fury.io/js/{{= name }}.svg)](http://badge.fury.io/js/{{= name }})
-[![npm module downloads per month](http://img.shields.io/npm/dm/{{= name }}.svg)](https://www.npmjs.org/package/{{= name }})
 [![Build Status](https://travis-ci.org/{{= user }}/{{= basename }}.svg?branch=master)](https://travis-ci.org/{{= user }}/{{= basename }})
+<!-- optional npm version
+[![NPM version](https://badge.fury.io/js/{{= name }}.svg)](http://badge.fury.io/js/{{= name }})
+-->
+<!-- optional npm downloads
+[![npm module downloads per month](http://img.shields.io/npm/dm/{{= name }}.svg)](https://www.npmjs.org/package/{{= name }})
+-->
+<!-- optional dependency status
 [![Dependency Status](https://david-dm.org/{{= user }}/{{= basename }}.svg)](https://david-dm.org/{{= user }}/{{= basename }})
+-->
 
 # {{= name }}
 
