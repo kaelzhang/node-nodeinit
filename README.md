@@ -6,7 +6,9 @@ Creates a most frequent scaffold of your node.js project for the first commit.
 
 I was awefully insane about creating new node.js projects, creating new github repo, cloning, `npm init`, .gitignore, travis-ci config, `git init` ............
 
-We might as well: 
+I was INSANE about answering questions from yeoman.
+
+We might as well:
 
 ```bash
 nodeinit https://github.com/kaelzhang/nodeinit.git # and done!
@@ -21,7 +23,7 @@ $ npm install -g nodeinit
 ## Usage
 
 ```bash
-$ nodeinit <repo> [--email <email>] [--npm_user <npm-user>]
+$ nodeinit <repo-url> [--email <email>] [--npm_user <npm-user>]
 ```
 
 `nodeinit` can not analysis your email and npm user name from the repo, so you must pass them to `nodeinit` for the first time you run the command.

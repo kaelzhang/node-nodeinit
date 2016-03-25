@@ -2,9 +2,9 @@
   "name": "{{= name }}",
   "version": "1.0.0",
   "description": "{{= name }}",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
-    "test": "mocha --reporter spec ./test/*.js"
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/{{= user }}/{{= basename }}/issues"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*"
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0"
   }
 }
