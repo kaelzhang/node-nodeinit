@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/{{= user }}/{{= basename }}.svg?branch=master)](https://travis-ci.org/{{= user }}/{{= basename }})
+<!-- optional appveyor tst
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/{{= user }}/{{= basename }}?branch=master&svg=true)](https://ci.appveyor.com/project/{{= user }}/{{= basename }})
+-->
 <!-- optional npm version
 [![NPM version](https://badge.fury.io/js/{{= name }}.svg)](http://badge.fury.io/js/{{= name }})
 -->
