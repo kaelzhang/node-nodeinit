@@ -1,6 +1,6 @@
 {
   "name": "nodeinit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Creates a most frequent scaffold of your node.js project for the first commit.",
   "bin": {
     "nodeinit": "bin/nodeinit.js"

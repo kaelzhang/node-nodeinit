@@ -25,7 +25,7 @@ $ npm install {{= name}} --save
 ## Usage
 
 ```js
-var {{= js_name}} = require('{{= name }}');
+let {{= js_name}} = require('{{= name }}')
 ```
 
 ## License
