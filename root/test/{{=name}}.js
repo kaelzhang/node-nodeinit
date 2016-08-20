@@ -1,4 +1,5 @@
-'use strict';
+const test = require('ava')
 
-var expect = require('chai').expect
-var {{= js_name }} = require('../')
+test('description', t => {
+  t.is(true, true)
+})
