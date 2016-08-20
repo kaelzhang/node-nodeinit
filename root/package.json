@@ -22,6 +22,6 @@
     "url": "https://github.com/{{= user }}/{{= basename }}/issues"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.16.0"
   }
 }
