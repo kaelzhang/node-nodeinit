@@ -4,7 +4,7 @@
   "description": "{{= name }}",
   "main": "./lib",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+    "test": "ava --verbose --timeout=10s"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
     "url": "https://github.com/{{= user }}/{{= basename }}/issues"
   },
   "devDependencies": {
-    "chai": "~1.7.2",
-    "mocha": "~1.13.0"
+    "ava": "^0.16.0",
   }
 }
