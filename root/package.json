@@ -2,7 +2,7 @@
   "name": "{{= name }}",
   "version": "1.0.0",
   "description": "{{= name }}",
-  "main": "./lib",
+  "main": "./src",
   "scripts": {
     "test": "ava --verbose --timeout=10s"
   },
