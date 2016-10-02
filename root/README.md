@@ -25,7 +25,7 @@ $ npm install {{= name}} --save
 ## Usage
 
 ```js
-let {{= js_name}} = require('{{= name }}')
+const {{= js_name}} = require('{{= name }}')
 ```
 
 ## License
