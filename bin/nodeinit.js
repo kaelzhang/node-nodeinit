@@ -76,7 +76,8 @@ var data = {
   user: argv.user || config.user || parsed.user,
   email: email,
   npm_user: argv.npm_user || config.npm_user || parsed.user,
-  ignore_file: '.gitignore'
+  ignore_file: '.gitignore',
+  npm_ignore_file: '.npmignore'
 };
 
 var cwd = argv.cwd || process.cwd();
