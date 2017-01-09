@@ -23,6 +23,11 @@
   "bugs": {
     "url": "https://github.com/{{= user }}/{{= basename }}/issues"
   },
+  "ava": {
+    "babel": {
+      "babelrc": true
+    }
+  },
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-cli": "^6.16.0",
