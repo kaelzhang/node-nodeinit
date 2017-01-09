@@ -24,6 +24,7 @@
     "url": "https://github.com/{{= user }}/{{= basename }}/issues"
   },
   "ava": {
+    "require": "babel-register",
     "babel": {
       "babelrc": true
     }
