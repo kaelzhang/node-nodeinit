@@ -17,6 +17,8 @@
 *.sass-cache
 *.lock
 *.rdb
+*.db
+nohup.out
 
 # OS or Editor folders
 .DS_Store
