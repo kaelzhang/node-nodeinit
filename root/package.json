@@ -27,7 +27,10 @@
     "require": "babel-register",
     "babel": {
       "babelrc": true
-    }
+    },
+    "files": [
+      "test/*.js"
+    ]
   },
   "devDependencies": {
     "ava": "^0.16.0",
