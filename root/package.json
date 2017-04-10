@@ -2,7 +2,7 @@
   "name": "{{= name }}",
   "version": "1.0.0",
   "description": "{{= name }}",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "npm run build && node --harmony ./node_modules/.bin/ava --verbose --timeout=10s",
