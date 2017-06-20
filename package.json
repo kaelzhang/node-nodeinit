@@ -1,6 +1,6 @@
 {
   "name": "nodeinit",
-  "version": "3.6.4",
+  "version": "3.6.6",
   "description": "Creates a most frequent scaffold of your node.js project for the first commit.",
   "bin": {
     "nodeinit": "bin/nodeinit.js"
@@ -31,13 +31,13 @@
     "url": "https://github.com/kaelzhang/nodeinit/issues"
   },
   "dependencies": {
-    "ejs": "^1.0.0",
     "githuburl": "^0.1.2",
     "home-dir": "^0.1.2",
     "ini": "^1.2.0",
     "minimist": "^0.1.0",
     "mkdirp": "^0.5.0",
-    "scaffold-generator": "^1.0.0",
+    "mustache": "^2.3.0",
+    "scaffold-generator": "^2.0.0",
     "spawns": "^0.2.0"
   }
 }

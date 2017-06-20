@@ -1,7 +1,7 @@
 {
-  "name": "{{= name }}",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "{{= name }}",
+  "description": "{{name}}",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -13,18 +13,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/{{= user }}/{{= basename }}.git"
+    "url": "git://github.com/{{user}}/{{basename}}.git"
   },
   "keywords": [
-    "{{= name }}"
+    "{{name}}"
   ],
   "engines": {
     "node": ">=4"
   },
-  "author": "{{= npm_user }}",
+  "author": "{{npm_user}}",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/{{= user }}/{{= basename }}/issues"
+    "url": "https://github.com/{{user}}/{{basename}}/issues"
   },
   "ava": {
     "require": "babel-register",
