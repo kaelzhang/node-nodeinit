@@ -41,7 +41,7 @@
     "minimist": "^0.1.0",
     "mkdirp": "^0.5.0",
     "mustache": "^2.3.0",
-    "scaffold-generator": "^2.0.0",
+    "scaffold-generator": "^2.0.3",
     "spawns": "^0.2.0"
   }
 }
