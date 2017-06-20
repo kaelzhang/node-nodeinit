@@ -1,6 +1,6 @@
 {
   "name": "nodeinit",
-  "version": "3.6.6",
+  "version": "3.6.7",
   "description": "Creates a most frequent scaffold of your node.js project for the first commit.",
   "bin": {
     "nodeinit": "bin/nodeinit.js"
@@ -12,6 +12,10 @@
     "type": "git",
     "url": "git@github.com:kaelzhang/nodeinit.git"
   },
+  "files": [
+    "bin/",
+    "root/"
+  ],
   "keywords": [
     "nodeinit",
     "scaffold",
