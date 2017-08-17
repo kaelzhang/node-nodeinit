@@ -19,6 +19,9 @@
 *.rdb
 *.db
 nohup.out
+.nyc_output
+coverage.lcov
+package-lock.json
 
 # OS or Editor folders
 .DS_Store
