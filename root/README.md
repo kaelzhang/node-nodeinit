@@ -20,13 +20,13 @@
 ## Install
 
 ```sh
-$ npm install {{name}} --save
+$ npm install {{name}}
 ```
 
 ## Usage
 
 ```js
-const {{js_name}} = require('{{name}}')
+import {{js_name}} from '{{name}}'
 ```
 
 ## License
