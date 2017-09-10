@@ -44,3 +44,6 @@ combo/
 reference/
 jscoverage_lib/
 temp/
+
+!root/*
+*.tgz
