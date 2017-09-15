@@ -6,7 +6,9 @@
   "module": "src/index.js",
   "scripts": {
     "build": "BABEL_ENV=rollup rollup -c",
-    "test": "BABEL_ENV=ava nyc ava --verbose --timeout=10s",
+    "test-spec": "BABEL_ENV=ava nyc ava --verbose --timeout=10s",
+    "flow": "flow",
+    "test": "npm run flow && npm run test-spec",
     "prepublish": "npm run build",
     "report-cov": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
@@ -41,6 +43,7 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-cli": "^6.16.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
