@@ -22,7 +22,7 @@
     "scaffold",
     "npm-init",
     "init",
-    "generator"
+    "generator",
     "node",
     "node-init",
     "first-commit"
