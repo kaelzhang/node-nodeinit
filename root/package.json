@@ -49,6 +49,7 @@
     "babel-plugin-transform-exponentiation-operator": "^6.8.0",
     "babel-plugin-transform-inline-environment-variables": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-register": "^6.24.1",
     "nyc": "^11.1.0",
