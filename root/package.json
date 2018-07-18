@@ -35,6 +35,7 @@
     "codecov": "^3.0.2",
     "nyc": "^12.0.2",
     "eslint-config-ostai": "^1.1.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint": "^5.1.0"
   }
 }
