@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run test-no-report",
     "test-no-report": "nyc ava --timeout=10s",
+    "lint": "eslint .",
     "posttest": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "files": [
@@ -32,6 +33,8 @@
   "devDependencies": {
     "ava": ">= 1.0.0-beta.6",
     "codecov": "^3.0.2",
-    "nyc": "^12.0.2"
+    "nyc": "^12.0.2",
+    "eslint-config-ostai": "^1.1.0",
+    "eslint": "^5.1.0"
   }
 }
