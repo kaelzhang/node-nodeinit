@@ -1,4 +1,6 @@
 .travis.yml
-.appveyor.yml
+appveyor.yml
 .babelrc
 .editorconfig
+HISTORY.md
+test
