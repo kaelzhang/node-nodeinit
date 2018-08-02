@@ -76,7 +76,8 @@ var data = {
   email: email,
   npm_user: argv.npm_user || config.npm_user || parsed.user,
   ignore_file: '.gitignore',
-  npm_ignore_file: '.npmignore'
+  npm_ignore_file: '.npmignore',
+  package_json: 'package.json'
 }
 
 var cwd = argv.cwd || process.cwd()
