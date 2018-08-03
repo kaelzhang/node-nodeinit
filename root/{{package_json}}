@@ -4,8 +4,8 @@
   "description": "{{name}}",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm run test-no-report",
-    "test-no-report": "nyc ava --timeout=10s",
+    "test": "nyc ava --timeout=10s",
+    "test-no-report": "NODE_DEBUG={{name}} nyc ava --timeout=10s --verbose",
     "lint": "eslint .",
     "posttest": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
