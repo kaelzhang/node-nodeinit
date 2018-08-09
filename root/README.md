@@ -20,7 +20,7 @@
 ## Install
 
 ```sh
-$ npm install {{name}}
+$ npm i {{name}}
 ```
 
 ## Usage
