@@ -32,8 +32,8 @@ package-lock.json
 .settings
 .tmproj
 *.esproj
-*.sublime-project
-*.sublime-workspace
+*.*-project
+*.*-workspace
 nbproject
 thumbs.db
 
