@@ -54,5 +54,13 @@ jscoverage_lib/
 temp/
 tmp/
 
+# Java
+.mvn
+.gradle
+.vscode
+.project
+.classpath
+/gradle
+
 # codecov.io
 coverage/
